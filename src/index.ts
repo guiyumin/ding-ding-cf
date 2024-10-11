@@ -17,7 +17,6 @@ const HomePage = () => {
   `;
 };
 
-// TODO: for this route, return html
 app.get("/", (c) => {
   return c.html(HomePage());
 });
